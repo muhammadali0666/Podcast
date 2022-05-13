@@ -1,0 +1,11 @@
+.logo  {
+    transition: opacity 0.4s;
+
+    &:hover {
+      opacity: 0.8;
+    }
+
+    &:active {
+      opacity: 0.6;
+    }
+  }

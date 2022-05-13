@@ -1,0 +1,35 @@
+.sitenav {
+    display: flex;
+    align-items: center;
+
+    &__list {
+      display: flex;
+      align-items: center;
+      margin: 0;
+      padding: 0;
+      list-style-type: none;
+      margin-right: 53px;
+    }
+
+    &__item + &__item {
+      margin-left: 50px;
+    }
+
+    &__link {
+      text-decoration: none;
+      font-size: 14px;
+      line-height: 21px;
+      letter-spacing: 0.02em;
+      color: #FFFFFF;
+      opacity: 0.8;
+      transition: opacity 0.4s;
+
+      &:hover {
+        opacity: 0.6;
+      }
+
+      &:active {
+        opacity: 0.4;
+      }
+    }
+  }

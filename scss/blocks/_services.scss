@@ -1,0 +1,119 @@
+.services {
+
+  .services__box {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    margin-bottom: 50px;
+  }
+
+  .services__paragraph {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 52px;
+    letter-spacing: 0.05em;
+    color: #000000;
+  }
+
+  .services__list {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  .services__item {
+    width: 381px;
+  }
+
+  .services__item-list {
+    list-style-type: none;
+
+
+  }
+
+  .services__list-item {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.05em;
+    color: #000000;
+  }
+
+  .services__list-item-point {
+    width: 10px;
+    height: 10px;
+    font-size: 30px;
+    margin-bottom: 50px;
+
+  }
+
+  .div {
+    display: flex;
+    margin-top: 25px;
+    justify-content: space-evenly;
+  }
+
+  .services__item-paragraph {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.02em;
+    color: #000000;
+    margin-bottom: 10px;
+  }
+
+  .services__item-paragraph-text {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #000000;
+    opacity: 0.6;
+    margin-bottom: 20px;
+  }
+
+  .services__end-list {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .services__end-item {
+    display: flex;
+  }
+
+  .services__end-img {
+    margin-right: 12px;
+    margin-bottom: 67px;
+  }
+
+  .services__end-text {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #9224D6;
+  }
+
+  .services__end-texts {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #000000;
+    opacity: 0.6;
+  }
+}
